@@ -1,0 +1,35 @@
+header{
+    background: #46A37C;
+    width: 1440px;
+    height: 150px;
+    display: inline-block;
+}
+.title {
+    margin-left: 260px;
+}
+.contenedor-logo {
+    background: #C4C4C4;
+    width: 254px;
+    height: 150px;
+    text-align: center;
+}
+.logo {
+    background: #C4C4C4;
+    width: 103px;
+    height: 118px;
+    transform: translateY(15px);
+}
+aside {
+    background: #373867;
+    width: calc(335px - 254px);
+    max-width: 254px;
+    height: 1168px;
+    margin-block: left;
+    padding-left: 81px;
+    padding-right: 81px;
+    padding-top: 50px;
+
+}
+h1 {
+
+}
