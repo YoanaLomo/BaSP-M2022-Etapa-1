@@ -3,154 +3,173 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <header>
-            <section class="contenedor-logo">
-                <img src="imagenes/logo.png" class="logo">
-            </section>     
-            <h2 class="title">Trackgenix SA</h2>
-        </header>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Trackgenix SA</title>
     </head>
     <body>
-    <aside>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">SingUp</a></li>
-        <li><a href="#">LogIn</a></li>
-        <li><a href="#">Contact</a></li>
-    </aside>
+        <header>
+            <div class="contenedor-logo">
+                <img src="imagenes/logo.png" class="logo">
+            </div>     
+            <h2 class="title">Trackgenix SA</h2>
+        </header>
+        <aside>
+            <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">SingUp</a></li>
+            <li><a href="#">LogIn</a></li>
+            <li><a href="#">Contact</a></li>
+        </ol>
+        </aside>
     <main>
-    <h1>Hi, we are Trackgenix</h1>
-    <p>
-        THE BEST CHOICE FOR YOU BUSINESS
-    </p>
-    <p>
-        Lorem Ipsum is simply text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, when an unknown printer took a galley
-        of type and scrambled it to make a type specimen book.
-    </p>
-    <img src="imagenes/desktop.png">
-    </main>
-    <section>
-        <div class="Conteiner"> 
-            <div class="Hours">
-                <h3>Hours</h3> 
-                <p>
-                    Lorem Ipsum is simply text of the printing and typesetting industry.
-                </p>
+        <section class="section-conteiner">
+            <img src="imagenes/desktop.png" class="desktop">
+        <div class="title-conteiner">
+                <h1>Hi, we are Trackgenix</h1>
+            <p class="subtitulo">
+            THE BEST CHOICE FOR YOU BUSINESS
+        </p>
+            <p class="texto">
+            Lorem Ipsum is simply text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+            text ever since the 1500s, when an unknown printer took a galley
+            of type and scrambled it to make a type specimen book.
+        </p>
+        </div>
+        </section>
+        <section class="section-conteiner">
+            <div> 
+                <div class="Conteiner">
+                    <h3>Hours</h3> 
+                    <p>
+                        Lorem Ipsum is simply text of the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="Conteiner">
+                    <h3>Reports</h3> 
+                    <p>
+                        Lorem Ipsum is simply text of the printing and typesetting industry.
+                    </p> 
+                </div>
+                <div class="Conteiner"> 
+                    <h3>Resource Management</h3> 
+                    <p>
+                        Lorem Ipsum is simply text of the printing and typesetting industry.
+                    </p>
+                </div>
+                <div class="Conteiner"> 
+                    <h3>Multiple Roles</h3> 
+                    <p>
+                        Lorem Ipsum is simply text of the printing and typesetting industry.
+                    </p>
+                </div>
             </div>
-            <div class="Reports">
-                <h3>Reports</h3> 
-                <p>
-                    Lorem Ipsum is simply text of the printing and typesetting industry.
-                </p> 
+        </section>
+        <section class="section-conteiner">
+            <div class="functionalities">
+                <img src="imagenes/09 - Browser.png">
+                <h4>Productivity booster</h4>
             </div>
-            <div class="Resource Management"> 
-                <h3>Resource Management</h3> 
-                <p>
-                    Lorem Ipsum is simply text of the printing and typesetting industry.
-                </p>
+            <div class="functionalities">
+                <h4>Leadership and team management</h4>
+                <img src="imagenes/17 - Direct Massage.png">
             </div>
-            <div class="Multiple Roles"> 
-                <h3>Multiple Roles</h3> 
-                <p>
-                    Lorem Ipsum is simply text of the printing and typesetting industry.
-                </p>
+            <div class="functionalities">
+                <img src="imagenes/18 - Share.png">
+                <h4>Work Traceability</h4>
             </div>
+            <div class="functionalities">
+                <h4>Decision making</h4>
+                <img src="imagenes/21 - Signal.png">
         </div>
-    </section>
-    <div>
-        <div>
-            <img src="imagenes/icon-Productivity-booster.png">
-            <h3>Productivity booster</h3>
-        </div>
-        <div>
-            <img src="imagenes/icon-work-traceability.png">
-            <h3>Work Traceability</h3>
-        </div>
-        <div>
-            <img src="imagenes/icon-leadership.png">
-            <h3>Leadership and team management</h3>
-        </div>
-        <div>
-            <img src="imagenes/icon-decision-making.png">
-            <h3>Decision making</h3>
-        </div>
-    </div>
+        </section>
 
-    <h2>Contact us for information about the system</h2>
-    <div class="conteiner">
-        <form class="form">
-            <label>First name</label>
-                    <div class="form__selection">
-                        <input type="text" class="form__imput" placeholder="Juan">
+        <section class="section-conteiner">
+        <h2>Contact us for information about the system</h2>
+            <form class="form">
+                <div>
+                    <div class="form-selection-name">
+                    <label>First name</label>
+                            <input type="text" placeholder="Juan">
+                        </div>
+                    <div class="form-selection-name">
+                    <label>Last name</label>
+                            <input type="text" placeholder="Perez">
+                        </div>
+                </div>
+                <div class="form-selection">
+                <label>Contact area</label>              
+                            <select name="Country">
+                                <option value="221">Abasto, Buenos Aires</option>
+                                <option value="3469">Acebal, Santa Fe</option>
+                                <option value="3465">Alcorta, Santa Fe</option>
+                                <option value="0341">Rosario, Santa Fe</option>
+                            </select>
+                        </div>
+                <div class="form-selection">
+                    <label>Email</label>
+                                <input type="email" placeholder="juanperez@hotmail.com">
                     </div>
-            <label>Last name</label>
-                    <div class="form__selection">
-                        <input type="text" class="form__imput" placeholder="Perez">
-                    </div>
-            <label>Contact area</label>
-                    <div class="form__selection">               
-                        <select name="Country">
-                            <option value="221">Abasto, Buenos Aires</option>
-                            <option value="3469">Acebal, Santa Fe</option>
-                            <option value="3465">Alcorta, Santa Fe</option>
-                            <option value="0341">Rosario, Santa Fe</option>
-                        </select>
-                    </div>
-            <label>Email</label>
-                    <div class="form__selection">
-                        <input type="email" class="form__imput" placeholder="juanperez@hotmail.com">
-                    </div>
-            <label>Text area</label>
-                    <div class="form__selection">
-                    <textarea class="form__textarea" placeholder="Escriba aqui su mensaje"> </textarea>
-                    </div>
-                    <div class="form__selection">
-                        <input type="submit" class="form__imput" value="SEND MESSAGE"> 
-                        <input type="reset" class="form__imput" value="RESET"> 
-                    </div>
-        </form>
-    </div>
-    <div>
-        <h2>Who we are</h2>
-        <p>
-            RR time tracker is a platform that help to manage time at work. 
-        </p>
-        <p>
-            What type of application do you have in mind?
-        </p>
-        <p>
-            We're providing you with the core UI kit needed to kickstart you design
-            and development while also allowing you to add new functionalities to the
-            existings capabilities.
-        </p>
-    </div>
-    <h2>Products</h2>
-    <ol>
-        <li><a href="">Help.</a></li>
-        <li><a href="">Tutorials.</a></li>
-        <li><a href="">API.</a></li>
-        <li><a href="">Contact.</a></li>
-    </ol>
-    <h2>Company</h2>
-    <ol>
-        <li><a href="">About us.</a></li>
-        <li><a href="">Clients.</a></li>
-        <li><a href="">Resources.</a></li>
-        <li><a href="">Blog.</a></li>
-    </ol>
-    <h2>Suport</h2>
-    <ul>
-        <li><a href="">Funtionalities.</a></li>
-        <li><a href="">Downloads.</a></li>
-        <li><a href="">Integrations.</a></li>
-        <li><a href="">Additionals features</a></li>
-        </ul>
-    </body>
+                <label>Text area</label>
+                        <div class="form__selection">
+                        <textarea placeholder="Escriba aqui su mensaje"> </textarea>
+                        </div>
+                        <div class="form__selection">
+                            <input type="submit" value="SEND MESSAGE" id="bottom"> 
+                            <input type="reset" value="RESET"> 
+                        </div>
+            </form>
+        </section>
+        
+        <section class="section-conteiner">
+            <div class="cuadro">
+            <h2>Who we are</h2>
+            <p>
+                RR time tracker is a platform that help to manage time at work. 
+            </p>
+            <p>
+                What type of application do you have in mind?
+            </p>
+            <p>
+                We're providing you with the core UI kit needed to kickstart you design
+                and development while also allowing you to add new functionalities to the
+                existings capabilities.
+            </p>
+        </div>
+        </section>
+
+        <section class="section-conteiner">
+        <div>
+        <h2>Products</h2>
+        <ol>
+            <li><a href="">Help.</a></li>
+            <li><a href="">Tutorials.</a></li>
+            <li><a href="">API.</a></li>
+            <li><a href="">Contact.</a></li>
+        </ol>
+        </div>
+        <div>
+        <h2>Company</h2>
+        <ol>
+            <li><a href="">About us.</a></li>
+            <li><a href="">Clients.</a></li>
+            <li><a href="">Resources.</a></li>
+            <li><a href="">Blog.</a></li>
+        </ol>
+        </div>
+        <div>
+        <h2>Suport</h2>
+        <ul>
+            <li><a href="">Funtionalities.</a></li>
+            <li><a href="">Downloads.</a></li>
+            <li><a href="">Integrations.</a></li>
+            <li><a href="">Additionals features</a></li>
+            </ul>
+        </div>
+        </section>
+    </main>
     <footer>
         <img src="imagenes/in.png">
         <img src="imagenes/fcb.png">
@@ -159,5 +178,6 @@
     <p>
         Copyright 2022 Trackgenix S.A. All rigths reserved.
     </p>
-    </footer>   
+    </footer>  
+    </body> 
 </html>
