@@ -1,4 +1,10 @@
 # TRACKGENIX WEBSITE
-Made by Lomo, Yoana.
+This is the website of Trackgenix S.A.
 
-This is the landing page of Trackgenix S.A.
+### Week 2
+HTML file writing
+
+###Week 3
+CSS file writing
+
+By Yoana Lomo.
